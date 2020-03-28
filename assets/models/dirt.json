@@ -1,0 +1,14 @@
+{
+	"model": [
+		"cube"
+	],
+	"name": "Dirt",
+	"tex_keys": {
+		"back": "dirt.png",
+		"bottom": "dirt.png",
+		"front": "dirt.png",
+		"left": "dirt.png",
+		"right": "dirt.png",
+		"top": "dirt.png"
+	}
+}
