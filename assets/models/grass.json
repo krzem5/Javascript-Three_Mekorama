@@ -1,0 +1,14 @@
+{
+	"model": [
+		"cube"
+	],
+	"name": "Grass",
+	"tex_keys": {
+		"back": "grass-side.png",
+		"bottom": "grass-bottom.png",
+		"front": "grass-side.png",
+		"left": "grass-side.png",
+		"right": "grass-side.png",
+		"top": "grass-top.png"
+	}
+}
