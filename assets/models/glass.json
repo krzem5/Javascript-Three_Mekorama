@@ -1,0 +1,15 @@
+{
+	"model": [
+		"cube"
+	],
+	"name": "Glass",
+	"tex_keys": {
+		"back": "glass.png",
+		"bottom": "glass.png",
+		"front": "glass.png",
+		"left": "glass.png",
+		"right": "glass.png",
+		"top": "glass.png"
+	},
+	"transparency": true
+}
