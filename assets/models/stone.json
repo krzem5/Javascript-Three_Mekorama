@@ -1,0 +1,14 @@
+{
+	"model": [
+		"cube"
+	],
+	"name": "Stone",
+	"tex_keys": {
+		"back": "stone.png",
+		"bottom": "stone.png",
+		"front": "stone.png",
+		"left": "stone.png",
+		"right": "stone.png",
+		"top": "stone.png"
+	}
+}
