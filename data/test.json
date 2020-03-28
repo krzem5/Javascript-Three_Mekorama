@@ -1,0 +1,82 @@
+{
+	"data": [
+		{
+			"pos": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"type": "grass"
+		},
+		{
+			"pos": {
+				"x": 2,
+				"y": 0,
+				"z": 0
+			},
+			"type": "dirt"
+		},
+		{
+			"pos": {
+				"x": -2,
+				"y": 0,
+				"z": 0
+			},
+			"type": "stone"
+		},
+		{
+			"pos": {
+				"x": 0,
+				"y": 0,
+				"z": -2
+			},
+			"type": "bricks"
+		},
+		{
+			"pos": {
+				"x": 0,
+				"y": 0,
+				"z": 2
+			},
+			"type": "glass"
+		},
+		{
+			"meta": 0,
+			"pos": {
+				"x": 2,
+				"y": 0,
+				"z": 2
+			},
+			"type": "stairs"
+		},
+		{
+			"meta": 1,
+			"pos": {
+				"x": -2,
+				"y": 0,
+				"z": 2
+			},
+			"type": "stairs"
+		},
+		{
+			"meta": 2,
+			"pos": {
+				"x": -2,
+				"y": 0,
+				"z": -2
+			},
+			"type": "stairs"
+		},
+		{
+			"meta": 3,
+			"pos": {
+				"x": 2,
+				"y": 0,
+				"z": -2
+			},
+			"type": "stairs"
+		}
+	],
+	"name": "TEST",
+	"water_level": 0
+}
