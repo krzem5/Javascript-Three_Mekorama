@@ -1,0 +1,115 @@
+{
+	"model": [
+		{
+			"pos": {
+				"x": 0,
+				"y": 5,
+				"z": 0
+			},
+			"rot": {
+				"a": -90,
+				"b": 0,
+				"c": 90
+			},
+			"size": {
+				"h": 10,
+				"w": 10
+			},
+			"texture": "top"
+		},
+		{
+			"pos": {
+				"x": -5,
+				"y": 0,
+				"z": 0
+			},
+			"rot": {
+				"a": 0,
+				"b": -90,
+				"c": 0
+			},
+			"size": {
+				"h": 10,
+				"w": 10
+			},
+			"texture": "front"
+		},
+		{
+			"pos": {
+				"x": 0,
+				"y": 0,
+				"z": -5
+			},
+			"rot": {
+				"a": 0,
+				"b": 180,
+				"c": 180
+			},
+			"size": {
+				"h": 10,
+				"w": 10
+			},
+			"texture": "left"
+		},
+		{
+			"pos": {
+				"x": 0,
+				"y": -5,
+				"z": 0
+			},
+			"rot": {
+				"a": 90,
+				"b": 0,
+				"c": 0
+			},
+			"size": {
+				"h": 10,
+				"w": 10
+			},
+			"texture": "bottom"
+		},
+		{
+			"pos": {
+				"x": 5,
+				"y": 0,
+				"z": 0
+			},
+			"rot": {
+				"a": 0,
+				"b": 90,
+				"c": 0
+			},
+			"size": {
+				"h": 10,
+				"w": 10
+			},
+			"texture": "back"
+		},
+		{
+			"pos": {
+				"x": 0,
+				"y": 0,
+				"z": 5
+			},
+			"rot": {
+				"a": 0,
+				"b": 0,
+				"c": 180
+			},
+			"size": {
+				"h": 10,
+				"w": 10
+			},
+			"texture": "right"
+		}
+	],
+	"name": "Bricks",
+	"tex_keys": {
+		"back": "bricks-side.png",
+		"bottom": "bricks-top.png",
+		"front": "bricks-side.png",
+		"left": "bricks-side.png",
+		"right": "bricks-side.png",
+		"top": "bricks-top.png"
+	}
+}
