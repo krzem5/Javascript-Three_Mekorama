@@ -1,35 +1,20 @@
-var scene,cam,renderer,controls
+var scene,cam,renderer,ENGINE
 function init(){
 	scene=new THREE.Scene()
-	cam=new THREE.PerspectiveCamera(60,window.innerWidth/window.innerHeight,0.1,100000)
-	cam.position.set(0,2000,0)
-	cam.enablePan=false
-	cam.lookAt(new THREE.Vector3(0,0,0))
+	cam=new THREE.OrthographicCamera(window.innerWidth/-2,window.innerWidth/2,window.innerHeight/2,window.innerHeight/-2,0.1,100000)
 	renderer=new THREE.WebGLRenderer({antialias:true})
 	renderer.setSize(window.innerWidth,window.innerHeight)
-	scene.background=new THREE.Color().setHSL(1,1,1)
 	document.body.appendChild(renderer.domElement)
-	ambient=new THREE.AmbientLight(0xffffff,1)
-	scene.add(ambient)
-	renderer.render(scene,cam)
-	controls=new THREE.OrbitControls(cam,renderer.domElement)
-	controls.target=new THREE.Vector3(0,0,0)
 	window.addEventListener("resize",resize,false)
-	window.addEventListener("keypress",onkeypress)
-	requestAnimationFrame(render)
-}
-function render(){
-	renderer.render(scene,cam)
-	requestAnimationFrame(render)
+	ENGINE=new Engine(scene,cam,renderer,window)
+	var orbitalControl = new THREE.OrbitControls(cam, renderer.domElement);
 }
 function resize(){
-	cam.aspect=window.innerWidth/window.innerHeight
-	cam.updateProjectionMatrix()
 	renderer.setSize(window.innerWidth,window.innerHeight)
-}
-function onkeypress(e){
-	switch (e.keyCode){
-		//
-	}
+	cam.left=window.innerWidth/-2
+	cam.right=window.innerWidth/2
+	cam.top=window.innerHeight/2
+	cam.bottom=window.innerHeight/-2
+	cam.updateProjectionMatrix()
 }
 document.addEventListener("DOMContentLoaded",init,false)
