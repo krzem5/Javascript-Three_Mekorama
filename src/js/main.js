@@ -7,7 +7,6 @@ function init(){
 	document.body.appendChild(renderer.domElement)
 	window.addEventListener("resize",resize,false)
 	ENGINE=new Engine(scene,cam,renderer,window)
-	var orbitalControl = new THREE.OrbitControls(cam, renderer.domElement);
 }
 function resize(){
 	renderer.setSize(window.innerWidth,window.innerHeight)

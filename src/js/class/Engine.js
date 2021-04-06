@@ -83,7 +83,6 @@ class Engine{
 			var off=new THREE.Vector3()
 			var t=new THREE.Vector3()
 			var q=new THREE.Quaternion().setFromUnitVectors(ths.cam.up,new THREE.Vector3(0,1,0))
-			var qI=q.clone().inverse()
 			off.copy(ths.cam.position).sub(t)
 			off.applyQuaternion(q)
 			return new THREE.Spherical().setFromVector3(off)
